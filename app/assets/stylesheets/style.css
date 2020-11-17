@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  display: flex;
+}
+main {
+  background-color: rgb(214, 214, 214);
+  flex: 1;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.main_header {
+   background-color: rgb(118, 118, 248);
+   margin: 0;
+   height: 120px;
+}
+aside {
+  width: 25%;
+  min-width: 210px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(214, 214, 214);
+  border-right: 1px ghostwhite solid;
+}
+ul {
+  background-color: rgb(71, 71, 247);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 120px;
+}
+div {
+  height: 300px;
+  background-color: rgb(71, 71, 247);
+  margin-top: auto;
+}

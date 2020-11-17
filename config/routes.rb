@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :motions 
+  root to: "motions#index"
 end
